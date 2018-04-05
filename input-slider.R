@@ -238,10 +238,6 @@ sliderInput <- function(inputId, label, min, max, value, step = NULL,
     )
   }
   
-  if (theme == "Shiny") {
-    
-  }
-  
   dep <- list(
     htmlDependency(
       "ionrangeslider", "2.1.6", c(href="shared/ionrangeslider"),
